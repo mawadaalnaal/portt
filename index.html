@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     
+    <style>
+        body{
+            background-color: #000000;
+        }
+        nav{
+    background-color: #171717e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(85, 255, 249);
+   height: 82px;
+   margin: 0px 0px 60px 0px;
+}
+
+nav ul{
+    list-style: none;
+  }
+li {
+
+    display: inline-block;
+    font-size: 30px; 
+    padding: 15px;  
+    font-size: 25px;
+  
+}
+li a {
+    color: rgb(85, 255, 249);
+   text-decoration: none;
+}
+li a:hover{
+color: rgb(255, 112, 153);
+}
+.logo h1{
+    font-size: 40px;
+    padding: 20px;
+    color: #54fff9;
+   
+}
+.img1{
+    width: 251px;
+    height: 223px;
+    top: 181px;
+    left: 599px;
+   border-radius: 60%;
+    margin: auto;
+    display: block;
+}
+.lab1{
+    color: aliceblue;
+    font-size: 3em;
+    text-align: center;
+}
+span{
+    background: linear-gradient(90deg, #3dddfa, #f7577a); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+.lab2{
+    color: azure;
+    text-align: center;
+}
+.but{
+  
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+.bt1{
+  color: rgb(0, 0, 0);  
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: white;
+  padding: 10px;
+  width: 120px;
+}
+.bt2{
+  color: azure;  
+  background-color: #000000;
+  border-radius: 25px;
+  padding: 10px;
+  width: 120px;
+}
+button:active {
+    background-color: #ff4f7e;
+}
+.lab3{
+    color: #ffffff;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    font-size: 40px;
+    justify-content: center; 
+    background: linear-gradient(90deg, #2bdfff, #ff3964); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+
+}
+
+.lab4{
+    color: #f7577a;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.card{
+    width: 300px; 
+    text-align: center; 
+    background-color: #171717e0;
+    border-radius: 10%;
+   
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.txt {
+    color: #ffffff;
+    text-align: left;
+    padding: 0px 20px;
+    margin: 0px;
+}
+.lab5{
+    color: #54fff9;
+    font-size: 40px;
+    text-align: center;
+    margin: 60px 0px 0px 0px ;
+}
+.txt11{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0px 0px 0px 10px;
+}
+.lable{
+    display: flex;
+    align-items: center;
+}
+.lable1{
+    color: rgb(204, 204, 204);
+    padding: 0px 0px 0px 20px;
+}
+.par11{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.pig1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.txt22{
+    color: rgb(187, 187, 187);
+    text-align: center;
+}
+.lab6{
+    color: azure;
+  
+   
+}
+.fot{
+    text-align: left; 
+    background-color: #171717e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lab7{
+  
+    color: rgb(218, 218, 218);
+}
+.lab8{
+    color: #d5d5d5;
+    margin-left: 10px;
+  
+}
+
+   
+ .em{
+    display: flex;
+    align-items: center; 
+    text-align: left;
+ }
+ 
+
+ @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                height: auto;
+                padding: 10px;
+            }
+
+            .logo h1 {
+                padding: 10px;
+            }
+
+            nav ul {
+                justify-content: center;
+            }
+
+            li {
+                padding: 10px;
+            }
+
+            .par11 {
+                justify-content: center;
+            }
+
+            .txt22 br {
+                display: none;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .icons {
+                gap: 10px;
+            }
+
+            .but {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .bt1, .bt2 {
+                width: 80%;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <h1>logo</h1>
+        </div>
+        <ul class="ul">
+          <li class="k"><a href="">Home</a></li>
+          <li class="k"><a href="">Projects</a></li>
+          <li class="k"><a href="">Experience</a></li>
+          <li class="k"><a href="">Contact</a></li>
+        </ul>
+      </nav>
+
+      <img class="img1" src="شخصية.jpg" alt="fot">
+
+      <h2 class="lab1">I do code and <br> make content <span>about it !</span></h2>
+      <p class="lab2">
+        I am a seasoned full-stack software engineer with over <br>
+8 years of professional experience, specializing in backend development. <br>
+My expertise lies in crafting robust and scalable SaaS-based <br>
+architectures on the Amazon AWS platform.
+      </p>
+      <div class="but">
+        <button class="bt1">
+           Get In Touch 
+        </button>
+        <button class="bt2">
+            Download CV
+        </button>
+      </div>
+      <br>
+        <br>
+      <h5 class="lab3">EXPERIENCE WITH</h5>
+
+      <div class="icons">
+        <i class="fab fa-html5"></i> 
+        <i class="fab fa-css3-alt"></i> 
+        <i class="fab fa-js-square"></i> 
+        <i class="fab fa-react"></i> 
+        <i class="fab fa-node-js"></i> 
+    </div>
+    <br> 
+    <h2 class="lab4">Projects</h2>
+    
+   
+      <div class="cards">
+        <div class="card">
+
+            <div class="image-link">
+                <a href=https://mawadaalnaal.github.io/portfoluo/ target="_blank">
+                    <img src="project-thumbnail-1.png" alt="Description of the image">
+                </a>
+            </div>
+
+            <div class="txt">
+               <p>click here to visit</p>
+              <h3>HTML TUTORIAL</h3>
+            
+         </div>
+
+
+          </div>
+         <div class="card">
+            <div class="image-link">
+                <a href=https://mawadaalnaal.github.io/Cupcakes/ target="_blank">
+                    <img src="project-thumbnail-2-1.png" alt="Description of the image">
+                </a>
+            </div>
+
+            <div class="txt">
+                <p>click here to visit</p>
+                <h3>CSS TUTORIAL</h3>
+          </div>
+        </div>
+       
+       </div>
+       <h2 class="lab5">Experience</h2>
+        <br> <br>
+       <div class="pig1">
+           <div class="par1">
+            <div class="par11">
+                <div class="lable">
+                    <a class="log" href="https://www.google.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+                            <path fill="#4285F4" d="M43.6 20H42V20H24V28H34.8C33.4 32 29.2 34 24 34C17.4 34 12 28.6 12 22S17.4 10 24 10C27.1 10 30 11.3 32 13.5L37.3 8.3C33.8 4.9 29.1 3 24 3 12.9 3 4 11.9 4 23S12.9 43 24 43C33.7 43 42 35.8 42 26 42 24.7 41.9 23.4 41.6 22Z"/>
+                            <path fill="#34A853" d="M6.3 14.9L12.3 19.1C13.9 15.5 18 13 24 13 26.4 13 28.7 13.8 30.4 15.2L36.4 10.4C32.6 6.7 28.4 5 24 5 16.4 5 10 10.5 6.3 14.9Z"/>
+                            <path fill="#FBBC05" d="M24 43C28.3 43 32.2 41.6 35.3 39L30.2 34.6C28.5 35.7 26.4 36.4 24 36.4 17.6 36.4 12.9 31.4 12.9 24.9H6.2V29.1C9.4 35.6 16.4 43 24 43Z"/>
+                            <path fill="#EA4335" d="M43.6 20H42V20H24V28H34.8C34 30.8 32.2 32.5 30.2 34L35.3 39C39.6 35.1 42 30 42 26 42 24.7 41.9 23.4 41.6 22Z"/>
+                        </svg>
+                    </a>
+                     <h1 class="txt11">Lead Software Engineer at Google</h1>
+                </div>
+                <p class="lable1">Nov 2019 - Present</p>
+               </div>
+               <p class="txt22">As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's <br> core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of <br> search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
+           </div>
+
+
+           <div class="par1">
+            <div class="par11">
+                <div class="lable">
+                    <a href="https://www.apple.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 1024 1024">
+                            <path fill="#ffff" d="M708.1 1024c-89.8 0-128.2-61.2-237.4-61.2-113.2 0-160 58.5-236.2 58.5C117.2 1021.3 0 838.7 0 639.5 0 447 130 337.3 241.2 337.3c101.5 0 154.4 63 237.7 63 76 0 117.7-61 236.5-61C891.2 339.3 1024 468.7 1024 637.8c0 214.2-149.3 386.2-315.9 386.2zM656.7 0c1.7 128.2-105.4 217-207 214.7C440.5 113.2 548 0 656.7 0z"/>
+                        </svg>
+                    </a>
+                    
+                    
+                     <h1 class="txt11">Junior Software Engineer at Apple</h1>
+                </div>
+                <p class="lable1">Jan 2016 - Dec 2017</p>
+               </div>
+               <p class="txt22">During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the <br>architecture of mission-critical software projects. Responsible for designing scalable and efficient systems,<br> I provided technical leadership to a cross-functional team.</p>
+           </div>
+
+
+           <div class="par1">
+            <div class="par11">
+                <div class="lable">
+                    <a href="https://about.facebook.com/meta" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 64 64">
+                            <path fill="#4267B2" d="M32 4C15.9 4 4 15.9 4 32s11.9 28 28 28 28-11.9 28-28S48.1 4 32 4zm12.1 30.4h-6.7v21.6h-9.8V34.4h-6.7V25h6.7v-5.6c0-7 4.3-10.8 10.5-10.8 2.9 0 5.4.2 6.1.3v7.1l-4.2.002c-3.3 0-3.9 1.6-3.9 3.8v4.5h7.8l-1 9.4z"/>
+                        </svg>
+                    </a>
+                    
+                    
+                     <h1 class="txt11">Software Engineer at Meta</h1>
+                </div>
+                <p class="lable1">Jan 2017 - Oct 2019</p>
+               </div>
+               <p class="txt22">At Meta, I served as a  Software Engineer, focusing on the design and implementation of backend systems for <br> the social media giant's dynamic platform. Working on projects that involved large-scale data processing and <br> user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.</p>
+           </div>
+       </div>
+           <br> <br><br>
+       <footer class="fot">
+        <h1 class="lab6">Contact</h1>
+        <p class="lab7">Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing <br>
+            and implementing robust, scalable, and innovative web solutions. Adept at leveraging a <br>
+            comprehensive skill set encompassing front-end and back-end technologies </p>
+
+            <br>
+            <div class="em">
+                <a class="eme" href="mailto:example@example.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 64 64">
+                        <path fill="#d5d5d5" d="M32 33.6L4 12.8v38.4l28-20.8zm0 0l28 20.8V12.8L32 33.6zm0-3.2L4 12.8h56L32 30.4z"/>
+                    </svg>
+                </a>
+               <h3 class="lab8">mawada2004alnaal@gmail.com</h3>                
+            </div>
+             <br> 
+            <div class="icons">
+                <i class="fab fa-instagram" style="font-size: 48px; color: #E4405F;"></i> 
+                <i class="fab fa-twitter" style="font-size: 48px; color: #1DA1F2;"></i> 
+                <i class="fab fa-github" style="font-size: 48px; color: #333;"></i> 
+                <i class="fab fa-linkedin" style="font-size: 48px; color: #0077B5;"></i> 
+            </div>
+            
+       </footer>
+    
+</body>
+
+</html>
